@@ -5,8 +5,6 @@ The app lets the user take an image of any food they consume on a daily basis an
 
 ## Working 
 
-## Models
-
 1. **ImageClassification:**
 	* First model which takes image data as `224 x 224` array and process it to generate the probability of any food in the image
 	* The model consists of 8 layers including input and output layers
