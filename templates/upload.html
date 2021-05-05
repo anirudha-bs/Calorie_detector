@@ -1,0 +1,14 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+
+    <div style="text-align:center">
+    <h1 style="margin-bottom: 3em;"> Upload the image </h1>
+    <div style="text-align:center;">
+    <form action = "{{url_for("predict")}}" method = "post" enctype="multipart/form-data">
+        Choose image  <input type="file" name="image" accept="image/*" required/>
+        <button style="text-align:center" class="btn btn-dark" type="submit" value="Upload"> Upload </button>
+    </form>
+    </div>
+
+{% endblock %}

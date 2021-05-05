@@ -1,0 +1,9 @@
+Flask
+pillow
+requests
+matplotlib
+numpy
+gunicorn
+tensorflow-cpu
+tflearn
+click

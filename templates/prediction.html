@@ -1,0 +1,38 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+
+  <h1 style="text-align:center">Insights</h1>
+  <h2 style="text-align:center">&#8595;</h2>
+
+  <div class="row">
+    <div class="col">
+  <div style="text-align: center;">
+    <img style="margin-bottom: 1em; width:auto;height:auto;max-width: 100%;" src="{{ predicted_path }}" alt="Predicted image">
+  </div>
+
+  </div>
+
+  <table style="margin: auto; text-align:center;width:auto;height:auto;max-width: 100%;" class="table table-bordered">
+  <thead class="thead-dark">
+    <tr>
+      <th style="text-align: center;" scope="col">Label</th>
+      <th style="text-align: center;" scope="col">Energy_Kcal</th>
+      <th style="text-align: center;" scope="col">Protein_g</th>
+      <th style="text-align: center;" scope="col">Fats_g</th>
+      <th style="text-align: center;" scope="col">Carbs_g</th>
+    </tr>
+  </thead>
+
+  <thead>
+    <tr>
+    {% for value,description in nutrition.items() %}
+      <th>{{description}}</th>
+    {% endfor %}
+    </tr>
+  </tbody>
+ </table>
+   <br></br><br></br>
+  </div>
+</div>
+{% endblock %}
