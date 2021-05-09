@@ -24,7 +24,6 @@ The app lets the user take an image of any food they consume on a daily basis an
 Newest python and pip is prerequisite
 
 ```
-pip install -r requirements.txt
 pip install virtualenv
 virtualenv venv
 ```
@@ -32,10 +31,12 @@ To activate virtual environment -
 Mac/linux
 ```
 source venv/bin/activate
+pip install -r requirements.txt
 ```
 Windows
 ```
 venv\Scripts\activate
+pip install -r requirements.txt
 ```
 To start the application -
 
