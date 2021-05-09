@@ -26,30 +26,10 @@ Newest python and pip is prerequisite
 ```
 pip install virtualenv
 virtualenv venv
-```
-To activate virtual environment - 
-Mac/linux
-```
 source venv/bin/activate
 pip install -r requirements.txt
-```
-Windows
-```
-venv\Scripts\activate
-pip install -r requirements.txt
-```
-To start the application -
-
-Mac/linux (supports gunicorn)
-```
 export FLASK_APP=app
 gunicorn --bind 127.0.0.1:5000 wsgi:app
-```
-
-Windows
-```
-set FLASK_APP=app
-flask run
 ```
 
 The application will start on localhost:5000
