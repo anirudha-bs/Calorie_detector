@@ -1,5 +1,5 @@
 # Calorie_detector
-Flask PWA to classify food items and displays their nutritional values
+Flask PWA to classify food items and displays their nutritional values.
 
 The app lets the user take an image of any food they consume on a daily basis and immediately calculates calories of it. Also, the app can be extended to kep track of daily consumed food items and their calories so that it can recommend a highly balanced daily diet to the user. Users can set goals for daily calories to lose or gain weight and the app helps them to keep up with their goals.
 
