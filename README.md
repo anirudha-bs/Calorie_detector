@@ -34,10 +34,10 @@ gunicorn --bind 127.0.0.1:5000 wsgi:app
 
 The application will start on localhost:5000
 
-![alt text]([https://github.com/anirudha-bs/Calorie_detector/Results/result1.png?raw=true](https://github.com/anirudha-bs/Calorie_detector/blob/b8959baff19d85c2706b0d085db3e72a4fddf787/Results/result1.png))
+![alt text](Results/result1.png)
 
 
-![alt text](https://github.com/anirudha-bs/Calorie_detector/Results/result3.png?raw=true)
+![alt text](Results/result3.png)
 
 
-![alt text](https://github.com/anirudha-bs/Calorie_detector/Results/result4.png?raw=true)
+![alt text](Results/result4.png)
